@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* geral */
+
+* {
+  box-sizing: border-box;
+  --cor-fundo: #F3F3F3;
+  --fundo-mensagem-status: #DCDCDC;
+  --fundo-mensagem-publica: #FFFFFF;
+  --fundo-mensagem-reservada: #FFDEDE;
+  --mensagem-horario: #BDBDBD;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--cor-fundo);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+ion-icon {
+  cursor: pointer;
+}
+
+/* header */
+
+header {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+header img {
+  width: 75px;
+  height: 53px;
+}
+
+header * {
+  margin: 0 22px;
+}
+
+/* mensagens */
+
+main {
+  margin: 80px 0;
+}
+
+main .mensagem {
+  min-height: 40px;
+  width: 100%;
+  padding: 10px 8px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.mensagem span {
+  margin-right: 10px;
+}
+
+.mensagem b {
+  font-weight: bold;
+}
+
+.mensagem .horario {
+  color: var(--mensagem-horario);
+}
+
+main .status {
+  background-color: var(--fundo-mensagem-status);
+}
+
+main .publica {
+  background-color: var(--fundo-mensagem-publica);
+}
+
+main .reservada {
+  background-color: var(--fundo-mensagem-reservada);
+}
+
+/* footer */
+
+footer {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer input {
+  border: 0;
+  color: black;
+  width: 70%;
+  font-size: 18px;
+}
+
+footer .destinatario {
+  display: none;
+  margin-top: 3px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+footer input::placeholder {
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+}
+
+footer input:focus {
+  outline: 0;
+  font-style: normal;
+}
+
+footer * {
+  margin: 0 17px;
+}

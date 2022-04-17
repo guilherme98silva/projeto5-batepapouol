@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bate-Papo UOL</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Barra do topo -->
+    <header>
+      <img src="imagens/bate-papo-uol.png" alt="logo do bate papo uol">
+      <ion-icon name="people"></ion-icon>
+    </header>
+
+    <!-- Mensagens -->
+    <main>
+      <ul></ul>
+    </main>
+
+    <!-- Barra inferior -->
+    <footer>
+      <div>
+        <input type="text" placeholder="Escreva aqui..." />
+        <p class="destinatario"></p>
+      </div>
+      <ion-icon name="paper-plane-outline" onclick="enviarMensagem()"></ion-icon>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
