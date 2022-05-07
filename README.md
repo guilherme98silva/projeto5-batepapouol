@@ -4,7 +4,7 @@
 <br/>
 
 ## 📝 Descrição
-O objetivo é criar um site de bate papo que carrega as mensagens através de uma API. Ao entrar na página será pedido o nome de usuário, que não poderá ser igual ao de outro particiánte do chat. Depois de alguns segundos a página será atualizada mostrando novas mensagens e os participantes que entraram e saíram da sala.
+O objetivo é criar um site de bate papo que carrega as mensagens através de uma API. Ao entrar na página será pedido o nome de usuário, que não poderá ser igual ao de outro particiánte do chat. O usuário poderá digitar uma mensagem e enviá-la através do botão à direita. Depois de alguns segundos a página será atualizada mostrando novas mensagens e os participantes que entraram e saíram da sala.
 <br/>
 
 ## 🖥️ Tecnologias
