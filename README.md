@@ -1,4 +1,4 @@
-# projeto05-batepapouol
+# projeto05-batepapoUOL
 
 ![batepapo](https://user-images.githubusercontent.com/102394141/167219053-4c9d8e1e-d4a4-4821-81b6-9d7ef91043ec.gif)
 <br/>
